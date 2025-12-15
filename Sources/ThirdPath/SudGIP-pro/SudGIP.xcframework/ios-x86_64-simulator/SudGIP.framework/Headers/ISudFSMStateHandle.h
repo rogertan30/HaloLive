@@ -1,11 +1,3 @@
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-/// APP接入方需要调用handle.success或handle.fail
-@protocol ISudFSMStateHandle <NSObject>
--(void) success:(NSString*) dataJson;
--(void) failure:(NSString*) dataJson;
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:7cb32650aa3e86b7c88fdd0758844775fabbbfc308ff1d0c59045df6537570f1
+size 260

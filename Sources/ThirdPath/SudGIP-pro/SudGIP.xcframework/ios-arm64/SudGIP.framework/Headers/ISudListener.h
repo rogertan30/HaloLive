@@ -1,14 +1,3 @@
-//
-//  ISudListener.h
-//  Pods
-//
-//  Created by kaniel on 2/14/25.
-//
-
-#ifndef ISudListener_h
-#define ISudListener_h
-#import "SudNetworkCheckParamModel.h"
-
-typedef void (^INetworkDetectionListener)(SudNetworkDetectionResult *result);
-
-#endif /* ISudListener_h */
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cbe5a216c61c1e7613e042b9cfa3606132cf2611897d34cac0257ef06e2b721
+size 264
