@@ -70,12 +70,14 @@ let package = Package(
         // Binary target for HaloFramework
         .binaryTarget(
             name: "HaloFramework",
-            path: "Sources/HaloFramework.xcframework"
+            url: "https://github.com/rogertan30/HaloLive/releases/download/1.0.1/HaloFramework.xcframework.zip",
+            checksum: "f3fdc6c3267df593cc3fbdb7839ff105f1fdae9f707eecd6a123d7ee8d420f09"
         ),
         // Binary target for SudGIP
         .binaryTarget(
             name: "SudGIP",
-            path: "Sources/ThirdPath/SudGIP-pro/SudGIP.xcframework"
+            url: "https://github.com/rogertan30/HaloLive/releases/download/1.0.1/SudGIP.xcframework.zip",
+            checksum: "f8f3b68b94ee21a70671f3afa3c5b5c266662f41732c5a0befa43c3b41e61506"
         ),
         // Protobuf target
         .target(
