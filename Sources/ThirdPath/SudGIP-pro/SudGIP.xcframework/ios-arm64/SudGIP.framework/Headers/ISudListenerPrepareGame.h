@@ -1,17 +1,3 @@
-#import <Foundation/Foundation.h>
-#import "GameCheckoutStatus.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-
-@protocol ISudListenerPrepareGame <NSObject>
-
--(void) onPrepareSuccess:(int64_t) mgId;
-
--(void) onPrepareFailure:(int64_t) mgId errCode:(int) errCode errMsg:(NSString *) errMsg;
-
--(void) onPrepareStatus:(int64_t) mgId checkoutedSize:(long) checkoutedSize totalSize:(long) totalSize status:(GameCheckoutStatus) status;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a42e957fda89dff6f3594101801a8ccaca95e001ddaebefd17b948dfda0734d
+size 439

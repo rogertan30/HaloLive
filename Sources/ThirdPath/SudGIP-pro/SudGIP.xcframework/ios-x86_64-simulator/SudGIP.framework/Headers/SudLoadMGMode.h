@@ -1,15 +1,3 @@
-//
-// Created by guanghui on 2022/7/5.
-//
-
-#import <Foundation/Foundation.h>
-
-typedef NS_ENUM(NSInteger, SudLoadMGMode)
-{
-    /// unspecified
-    kSudLoadMGModeUnspecified = -1,
-    /// normal, 正常模式
-    kSudLoadMGModeNormal = 0,
-    /// AuthCrossApp，跨域App
-    kSudLoadMgModeAppCrossAuth = 1,
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:e78c271aa871af6d61be9e1595b17f75b8b693e7a5bbbbbf5483ba9ebee2b4a0
+size 308

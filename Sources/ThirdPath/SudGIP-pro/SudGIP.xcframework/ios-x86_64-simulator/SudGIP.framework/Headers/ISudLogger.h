@@ -1,21 +1,3 @@
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-/// 日志级别
-typedef NS_ENUM(NSInteger, SudLogType) {
-    SudLogVERBOSE = 2,
-    SudLogDEBUG = 3,
-    SudLogINFO = 4,
-    SudLogWARN = 5,
-    SudLogERROR = 6,
-    SudLogASSERT = 7
-};
-
-@protocol ISudLogger <NSObject>
-- (void) setLogLevel:(SudLogType) level;
-- (void) log:(SudLogType) level tag:(NSString*) tag msg:(NSString*) msg detailLine:(NSString *)detailLine;
-- (void) log:(SudLogType) level tag:(NSString*) tag msg:(NSString*) msg error:(nullable NSError *) error detailLine:(NSString *)detailLine;
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:eaf465f498ed8dd9e64415c9a9c68e261863c5bc3d7d70b40fda54200fb145c7
+size 596
