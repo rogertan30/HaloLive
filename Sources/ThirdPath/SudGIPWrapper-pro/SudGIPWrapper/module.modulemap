@@ -1,0 +1,6 @@
+module SudGIPWrapper {
+    umbrella header "SudGIPWrapper.h"
+    export *
+    link framework "UIKit"
+    link framework "Foundation"
+}

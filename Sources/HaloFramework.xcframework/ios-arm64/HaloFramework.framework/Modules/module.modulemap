@@ -1,0 +1,11 @@
+framework module HaloFramework {
+  umbrella header "HaloFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module HaloFramework.Swift {
+  header "HaloFramework-Swift.h"
+  requires objc
+}

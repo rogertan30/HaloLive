@@ -1,0 +1,27 @@
+module TYCyclePage {
+    umbrella header "TYCyclePagerView.h"
+    export *
+    link framework "UIKit"
+    link framework "Foundation"
+    
+    explicit module TYCyclePagerView {
+        header "TYCyclePagerView.h"
+        export *
+    }
+    
+    explicit module TYCyclePagerTransformLayout {
+        header "TYCyclePagerTransformLayout.h"
+        export *
+    }
+    
+    explicit module TYCyclePagerViewCell {
+        header "TYCyclePagerViewCell.h"
+        export *
+    }
+    
+    explicit module TYPageControl {
+        header "TYPageControl.h"
+        export *
+    }
+}
+

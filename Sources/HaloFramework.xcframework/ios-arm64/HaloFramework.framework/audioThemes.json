@@ -1,0 +1,62 @@
+{
+    "themes": [
+        {
+            "theme_id": 1,
+            "head_id": 1,
+            "bg_id": 1,
+            "seat_id": 1,
+            "seat_lock_id": 1,
+            "tag_bg_host_id": 1,
+            "tag_bg_guest_id": 1
+        },
+        {
+            "theme_id": 2,
+            "head_id": 2,
+            "bg_id": 2,
+            "seat_id": 2,
+            "seat_lock_id": 2,
+            "tag_bg_host_id": 1,
+            "tag_bg_guest_id": 1
+        }
+    ],
+    "background": [
+        {
+            "bg_id": 1
+        },
+        {
+            "bg_id": 2
+        }
+    ],
+    "effects": [
+        {
+            "head_id": 1
+        },
+        {
+            "head_id": 2
+        }
+    ],
+    "Seat": [
+        {
+            "bg_id": 1
+        },
+        {
+            "bg_id": 2
+        }
+    ],
+    "Sound Wave": [
+        {
+            "bg_id": 1
+        },
+        {
+            "bg_id": 2
+        }
+    ],
+    "Mic Style": [
+        {
+            "bg_id": 1
+        },
+        {
+            "bg_id": 2
+        }
+    ]
+}

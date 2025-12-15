@@ -1,0 +1,16 @@
+module TZImagePickerController {
+    umbrella header "TZImagePickerController.h"
+    export *
+    link framework "UIKit"
+    link framework "Foundation"
+    link framework "CoreGraphics"
+    link framework "Photos"
+    link framework "PhotosUI"
+    link framework "AVFoundation"
+    link framework "ImageIO"
+    
+    explicit module UIView_TZLayout {
+        header "UIView+TZLayout.h"
+        export *
+    }
+}
