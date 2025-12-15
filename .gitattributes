@@ -1,4 +1,5 @@
 *.xcframework/** filter=lfs diff=lfs merge=lfs -text
 **/*.framework/** filter=lfs diff=lfs merge=lfs -text
 **/*.dylib filter=lfs diff=lfs merge=lfs -text
+Sources/ThirdPath/SudGIP-pro/SudGIP.xcframework/ios-arm64/SudGIP.framework/SudGIP filter=lfs diff=lfs merge=lfs -text
 Sources/HaloFramework.xcframework/** filter=lfs diff=lfs merge=lfs -text
